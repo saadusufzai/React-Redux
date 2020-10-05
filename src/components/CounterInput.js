@@ -1,13 +1,13 @@
 import React from 'react'
-import useDispatch from 'react-redux'
-
- const dispatch = useDispatch()
+import {useDispatch} from 'react-redux'
+import {incremetAction, decremetAction} from '../redux/Actions'
 
 const CounterInput = () => {
+ const dispatch = useDispatch()
     return (
         <div>
-            <div onClick={()=>dispatch({type:'INCREMENT'})} >+</div>
-            <div onClick={()=>dispatch({type:'DECREMENT'})} >-</div>
+            <div onClick={()=>dispatch(incremetAction())} >+</div>
+            <div onClick={()=>dispatch(decremetAction())} >-</div>
         </div>
  
 )
