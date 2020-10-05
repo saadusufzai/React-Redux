@@ -10,5 +10,5 @@
     
 ## Surge Link
     App is deployed on surge
-    Link: http://react-redux-simple-counter.surge.sh/
+   [Link](http://react-redux-simple-counter.surge.sh/ "redux counter app ")
     
