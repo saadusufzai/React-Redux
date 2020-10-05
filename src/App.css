@@ -1,23 +1,20 @@
 .App {
- 
   text-align: center;
-  
 }
-.counter{
+.counter {
   width: 200px;
   margin: 10px auto;
   padding: 5px;
   border-radius: 15px;
-  box-shadow: 5px 5px 10px ;
+  box-shadow: 5px 5px 10px;
   border: solid black 4px;
 }
 
-.buttons{
+.buttons {
   display: flex;
   justify-content: center;
-
 }
-.buttons div{
+.buttons div {
   font-size: 24px;
   font-weight: 500;
   cursor: pointer;
@@ -31,20 +28,19 @@
   margin: 5px;
   border-radius: 5px;
 }
-.buttons div:hover{
+.buttons div:hover {
   opacity: 0.9;
 }
-.output{
+.output {
   font-size: 40px;
   padding: 10px;
 }
 
-a{
+a {
   text-decoration: none;
   font-weight: 500;
   cursor: pointer;
-
 }
-a:hover{
+a:hover {
   color: rgb(174, 0, 255);
 }
