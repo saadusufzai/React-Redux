@@ -13,9 +13,9 @@ function App() {
         <div className='counter'>
         <CounterOutput/>
         <CounterInput/>
-        <div><a href=''>GITHUB REPO</a></div>
-        </div>
-
+       </div>
+       <div><a target='blank' href='https://github.com/saadusufzai/React-Redux'>GITHUB REPO</a></div>
+        
       </div>
   
   );

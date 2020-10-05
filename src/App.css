@@ -38,3 +38,13 @@
   font-size: 40px;
   padding: 10px;
 }
+
+a{
+  text-decoration: none;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+a:hover{
+  color: rgb(174, 0, 255);
+}
