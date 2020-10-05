@@ -8,8 +8,13 @@ function App() {
   return (
     
       <div className="App">
+        <h1>Counter App</h1>
+        <p>Using React REDUX... </p>
+        <div className='counter'>
         <CounterOutput/>
         <CounterInput/>
+        <div><a href=''>GITHUB REPO</a></div>
+        </div>
 
       </div>
   

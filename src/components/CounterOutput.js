@@ -7,7 +7,7 @@ import {useSelector} from 'react-redux'
 const CounterOutput = () => {
     const counter = useSelector(state => state.counter)
     return (
-        <div>
+        <div className='output'>
             {counter}
         </div>
     )
